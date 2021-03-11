@@ -26,7 +26,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
 
 
 func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
-
+	//test
 	function, args := stub.GetFunctionAndParameters()
 	vc := controllers.ValidC{}
 	
